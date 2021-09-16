@@ -25,3 +25,5 @@ const nextImgBtn = document.getElementById('next-btn')
 nextImgBtn.addEventListener('click', reload, false)
 
 //function to save image to db
+const saveBtn = document.getElementById('save-btn');
+saveBtn.addEventListener('click', saveImg());
