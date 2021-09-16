@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The Image Factory</title>
+    <link rel="stylesheet" href="./public/css/style.css">
 </head>
+
 <body>
-    <h1>Hello World</h1>
+    <h1>Find and save images</h1>
+    <div class="image-container">
+        <a href="#" id="image-link">
+            <img alt="" id="unsplash-image" />
+        </a>
+    </div>
+    <div class="details">
+        <p id="image-details">Photo by <a href="#" id="creator">Name</a> on
+            <a href="https://www.unsplash.com">Unsplash</a>
+        </p>
+    </div>
+    <div class="buttons-div">
+        <button id="next-btn">Next Image</button>
+        <button id="save-btn">Save Image</button>
+    </div>
+
+    <script src="./public/javascript/randomImg.js"></script>
 </body>
+
 </html>
